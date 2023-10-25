@@ -21,7 +21,7 @@ http_archive(
 
 http_archive(
   name = "platforms",  # 2023-07-28T19:44:27Z
-  sha256 = "40eb313613ff00a5c03eed20aba58890046f4d38dec7344f00bb9a8867853526",
-  strip_prefix = "platforms-4ad40ef271da8176d4fc0194d2089b8a76e19d7b",
-  urls = ["https://github.com/bazelbuild/platforms/archive/4ad40ef271da8176d4fc0194d2089b8a76e19d7b.zip"],
+  sha256 = "a02b2eaa948ccc26994e9c0e0b5037ed7599248c0f768eb37e8a7dd816e0c745",
+  strip_prefix = "platforms-33a3b209f94856193266871b1545054afb90bb28",
+  urls = ["https://github.com/bazelbuild/platforms/archive/33a3b209f94856193266871b1545054afb90bb28.zip"],
 )
