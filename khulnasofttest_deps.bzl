@@ -16,7 +16,7 @@ def khulnasofttest_deps():
     if not native.existing_rule("com_khulnasoft_absl"):
         http_archive(
             name = "com_khulnasoft_absl",  # 2023-09-13T14:58:42Z
-            sha256 = "d1c27b4d39e689de574b6150c239f942c09c2b75aa4965afdc940a376718d788",
-            strip_prefix = "abseil-cpp-4618865caf8596742a9fd7c28a70a46b5e277794",
-            urls = ["https://github.com/abseil/abseil-cpp/archive/4618865caf8596742a9fd7c28a70a46b5e277794.zip"],
+            sha256 = "b93f68b8b36534502561cef2fb5a79372a70d629f87a25f51dc2e9b8ef9f1566",
+            strip_prefix = "abseil-cpp-160d390608db56f11cbd29bd6b8938661dee525c",
+            urls = ["https://github.com/abseil/abseil-cpp/archive/160d390608db56f11cbd29bd6b8938661dee525c.zip"],
         )
